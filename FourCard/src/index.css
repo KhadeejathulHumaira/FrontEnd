@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+*{
+    margin:0;
+    font-family: 'Poppins';
+}
+body{
+    height:100vh;
+    width:1440px;
+    margin: auto;
+    background-color: hsl(0, 0%, 98%);
+}
+
+main,.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+main{
+    padding:0;
+    padding-bottom: 40px;
+}
+.top h1,.header,.heading{
+    color: hsl(234, 12%, 34%);
+}
+.wrapper{
+    display: grid;
+    grid-template-columns:300px 300px 300px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "box1 box2 box4"
+    "box1 box3 box4" ;
+    row-gap: 25px;
+    column-gap: 25px;
+}
+
+.top h1{
+    font-size: 1.9rem;
+   
+}
+.header{
+    font-size: 2rem;
+    font-weight: 200;
+}
+.description{
+    font-size: 0.9rem;
+    width:60%;
+    text-align: center;
+    margin-top:15px;
+    margin-bottom: 20px;
+    color: hsl(229, 6%, 66%);
+}
+
+.box1,.box2,.box3,.box4{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+.box_heading{
+    background-color: white;
+    padding:25px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 7px hsl(229, 6%, 66%);
+}
+.desc{
+    font-size:0.7rem;
+    width:80%;
+    color: hsl(229, 6%, 66%);
+    margin-top:10px;
+    margin-bottom: 20px;
+
+}
+#box1_heading{
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+#box2_heading{
+    border-top: 4px solid  hsl(0, 78%, 62%);
+}
+#box3_heading{
+    border-top: 4px solid  hsl(34, 97%, 64%);
+}
+#box4_heading{
+    border-top: 4px solid  hsl(212, 86%, 64%);
+}
+.heading{
+    font-weight: 600;
+}
+.image{
+    display: flex;
+    justify-content: flex-end;
+}
+.box1{
+    grid-area: box1;
+}
+.box2{
+    grid-area: box2;
+}
+.box3{
+    grid-area: box3;
+}
+.box4{
+    grid-area: box4;
+}
+img{
+    width: 64px;
+}
+
+@media(max-width:375px){
+    body{
+        height:100vh;
+        width:100%;
+    }
+    main{
+        padding-bottom: 30px;
+    }
+    .wrapper{
+        grid-template-areas:
+        "box1"
+        "box2"
+        "box3"
+        "box4" ;
+        grid-template-rows:1fr 1fr 1fr 1fr;
+        grid-template-columns: 300px;
+        column-gap: 0;
+    }
+    .header,.top h1 {
+        font-size: 1.5rem;
+    }
+    .description{
+        width:80%;
+        margin-bottom: 20px;
+    }
+}
