@@ -25,11 +25,11 @@ Users should be able to:
 ### Screenshot
 
 ## Desktop View
-![Desktop View](HUDDLE/images/screenshots/desktopView.png)
+![Desktop View](images/screenshots/desktopView.png)
 ## Desktop Active
-![Desktop View](/images/screenshots/desktopActive.png)
+![Desktop View](images/screenshots/desktopActive.png)
 ## Mobile View
-![Mobile View](/images/screenshots/MobileView.png)
+![Mobile View](images/screenshots/MobileView.png)
 
 
 ### Links
