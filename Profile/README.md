@@ -26,10 +26,10 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### Screenshot
 
 ### Desktop View
-![Desktop View](design/screenshot.jpg)
+![Desktop View](design/desktop.png)
 
 ### Mobile View
-![Desktop View](design/screenshot.jpg)
+![Desktop View](design/mobile.png)
 
 
 ### Links
