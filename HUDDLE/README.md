@@ -25,7 +25,7 @@ Users should be able to:
 ### Screenshot
 
 ## Desktop View
-![Desktop View](/images/screenshots/desktopView.png)
+![Desktop View](HUDDLE/images/screenshots/desktopView.png)
 ## Desktop Active
 ![Desktop View](/images/screenshots/desktopActive.png)
 ## Mobile View
