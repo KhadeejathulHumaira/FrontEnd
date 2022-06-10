@@ -31,11 +31,11 @@ Users should be able to:
 
 #### Desktop View
 
-![Desktop View](/Screenshots/desktop.png)
+![Desktop View](Screenshots/desktop.png)
 
 #### Mobile View
 
-![Mobile View](/Screenshots/mobile.png)
+![Mobile View](Screenshots/mobile.png)
 
 
 
