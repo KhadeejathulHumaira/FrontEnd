@@ -86,18 +86,9 @@ h1 span{
 .input_div p{
     display:none;
 }
-.middle_container input:active{
-    border: 1px solid var(--Red);
-}
-.middle_container input:hover +.hide {
-    color:var(--Red);
-    display: block;
-    padding-left: 1.5rem;
-    font-weight: 300;
-}
-.middle_container input:hover{
-    border: 1px solid var(--Red);
-}
+
+
+
 button{
     height: 4rem;
     width:25%;
